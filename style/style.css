@@ -1,0 +1,162 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20vh;
+}
+
+header {
+    color: #000000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30vw;
+    margin-top: 5vh;
+}
+
+.logo {
+    color: #000000;
+    font-family: 'CocogooseProDarkmode', sans-serif;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'CocogooseProSemilight';
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.profile-image img {
+    border-radius: 20%;
+    width: 30vw;
+    object-fit: cover;
+    margin-right: 40px;
+    min-width: 200px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.profile-info h3 {
+    margin: 0;
+    color: #000000;
+    font-family: 'CocogooseProLight';
+    font-size: 1em;
+}
+
+.profile-info h1 {
+    margin: 3vh 0;
+    color: #000000;
+    font-family: 'CocogooseProSemilight', sans-serif;
+    font-size: 3em;
+}
+
+.profile-info h2 {
+    margin: 0;
+    color: #000000;
+    font-family: 'CocogooseProSemilight';
+    font-size: 1.5em;
+    margin-bottom: 3vh;
+}
+
+.buttons button {
+    width: 130px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.buttons .btn-l {
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+.buttons .btn-r {
+    background-color: #000000;
+    color: #f4f4f4;
+}
+
+.social-icons img {
+    margin-top: 20px;
+    width: 3vw;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/*Tamanho para celulares */
+
+@media only screen and (max-width: 800px) {
+    body {
+        gap: 15vh;
+    }
+
+    .profile-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .profile-image img {
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    nav ul {
+        display: none;
+    }
+}
