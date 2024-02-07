@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="style/style.css">
     <!-- css de fontes -->
     <link rel="stylesheet" href="style/fontes.css">
+    <!-- animações -->
+    <link rel="stylesheet" href="/animation/aos.css">
 
     <title>Portfólio 2.0</title>
 </head>
@@ -19,15 +21,23 @@
 
     <header>
         <div class="header-content">
-            <div class="logo">
-                <div class="nome-topo">Wagner N. S.</div>
+            <div class="logo" data-aos="fade-right">
+                <div class="nome-topo">Página Portifólio</div>
             </div>
-            <nav>
+
+            <div class="menu-nav" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <!-- Icone do menu -->
+
+            <nav data-aos="fade-left">
                 <ul>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#cursos">Cursos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
+                    <li class="link-anim-sub"><a href="#projetos">Projetos</a></li>
+                    <li class="link-anim-sub"><a href="#cursos">Cursos</a></li>
+                    <li class="link-anim-sub"><a href="#contato">Contato</a></li>
+                    <li class="link-anim-sub"><a href="#sobre">Sobre</a></li>
                     <!-- Adicionar mais links conforme necessário -->
                 </ul>
             </nav>
@@ -36,13 +46,13 @@
 
     <main>
         <section class="profile-section">
-            <div class="profile-image">
+            <div class="profile-image" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <img src="/img/perfil2.jpg" alt="Foto perfil">
             </div>
-            <div class="profile-info">
+            <div class="profile-info" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <h3>Olá, eu sou o</h3>
                 <h1>Wagner N.S.</h1>
-                <h2>Backend Developer</h2>
+                <h2>Web Developer</h2>
                 <div class="buttons">
                     <button class="btn-l">Download CV</button>
                     <button class="btn-r">Contato Inf</button>
@@ -61,12 +71,17 @@
 
     </main>
 
-    <footer>
-        <!-- Adicionar o conteúdo do rodapé se necessário -->
-    </footer>
+    <!-- <footer>
+        <div>
+            <p>&copy; 2024 Wagner Portifólio. Todos os direitos reservados.</p>
+    </footer> -->
 
     <!-- script -->
     <script src="script/script.js"></script>
+    <script src="/animation/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
