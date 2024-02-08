@@ -173,7 +173,7 @@ main {
 
 .buttons button:hover {
     color: var(--button-text-color);
-    background-color: var(--button-background-color);
+    background-color: var(--link-color);
     transition: 0.3s ease;
 }
 
@@ -201,7 +201,7 @@ main {
 }
 
 .social-icons a:hover {
-    opacity: var(--social-icon-hover-opacity);
+    opacity: var(--link-color);
     filter: none;
 }
 
