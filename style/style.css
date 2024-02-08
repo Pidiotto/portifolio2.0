@@ -1,16 +1,30 @@
+:root {
+    --background-color: #f4f4f4;
+    --text-color: #000000;
+    --link-color: #000000;
+    --link-hover-color: #f4f4f4;
+    --button-border-color: #3a3a3a;
+    --button-background-color: #3a3a3a;
+    --button-text-color: #f4f4f4;
+    --social-icon-opacity: 0.5;
+    --social-icon-hover-opacity: 1;
+    --overlay-background-color: rgba(0, 0, 0, 0.9);
+    --overlay-text-color: #fff;
+}
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: var(--background-color);
+    color: var(--text-color);
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 header {
-    color: #000000;
+    color: var(--text-color);
     margin-bottom: 10%;
 }
 
@@ -23,13 +37,9 @@ header {
 }
 
 .logo {
-    color: #000000;
+    color: var(--text-color);
     font-family: 'CocogooseProDarkmode', sans-serif;
     font-size: 1.5em;
-}
-
-.menu-nav {
-    display: none;
 }
 
 nav ul {
@@ -37,7 +47,6 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-
 }
 
 nav ul li {
@@ -46,7 +55,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #000000;
+    color: var(--link-color);
     font-weight: bold;
     font-family: 'CocogooseProSemilight';
     font-size: 1.2em;
@@ -54,7 +63,6 @@ nav ul li a {
 
 .link-anim-sub {
     position: relative;
-    /* Para posicionar o traço de acordo com o elemento pai */
 }
 
 .link-anim-sub:before {
@@ -64,19 +72,44 @@ nav ul li a {
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background-color: var(--link-color);
     visibility: hidden;
-    -webkit-transform: scaleX(0);
     transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 }
 
 .link-anim-sub:hover:before {
     visibility: visible;
-    -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+
+/* botão de troca de tema */
+
+#theme-toggle {
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ccc;
+    position: relative;
+}
+
+#theme-toggle:before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    transition: transform 0.3s ease;
+}
+
+.dark-mode #theme-toggle:before {
+    transform: translateX(20px);
+}
+
+/* fim do botao de troca de tema */
 
 main {
     display: flex;
@@ -84,12 +117,10 @@ main {
     justify-content: center;
 }
 
-
 .profile-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .profile-image img {
@@ -105,19 +136,18 @@ main {
     flex-direction: column;
     align-items: center;
     justify-items: center;
-
 }
 
 .profile-info h3 {
     margin: 0;
-    color: #000000;
+    color: var(--text-color);
     font-family: 'CocogooseProLight';
     font-size: 1em;
 }
 
 .profile-info h1 {
     margin: 3vh 0;
-    color: #000000;
+    color: var(--text-color);
     font-family: 'CocogooseProSemilight', sans-serif;
     font-size: 3em;
 }
@@ -142,19 +172,19 @@ main {
 }
 
 .buttons button:hover {
-    color: #f4f4f4;
-    background-color: #000000;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
     transition: 0.3s ease;
 }
 
 .buttons .btn-l {
-    border: 2px solid #3a3a3a;
-    color: #000000;
+    border: 2px solid var(--button-border-color);
+    color: var(--text-color);
 }
 
 .buttons .btn-r {
-    background-color: #3a3a3a;
-    color: #f4f4f4;
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
 }
 
 .social-icons img {
@@ -166,16 +196,13 @@ main {
 .social-icons a {
     margin-right: 10px;
     text-decoration: none;
-    opacity: 0.5;
-    /* Torna os ícones opacos */
+    opacity: var(--social-icon-opacity);
     transition: opacity 0.3s, filter 0.3s;
 }
 
 .social-icons a:hover {
-    opacity: 1;
-    /* Torna os ícones totalmente visíveis */
+    opacity: var(--social-icon-hover-opacity);
     filter: none;
-    /* Remove a opacidade */
 }
 
 footer {
@@ -190,10 +217,51 @@ footer {
     bottom: 0;
 }
 
-/*Tamanho para celulares */
+.overlay-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--overlay-background-color);
+    z-index: 100;
+}
+
+.overlay-menu.active {
+    display: block;
+}
+
+.overlay-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    z-index: 101;
+}
+
+.overlay-menu ul li {
+    margin-bottom: 20px;
+}
+
+.overlay-menu ul li a {
+    font-family: 'CocogooseProSemilight';
+    text-decoration: none;
+    color: var(--overlay-text-color);
+    font-size: 1.5em;
+}
+
+@media only screen and (min-width: 800px) {
+    .menu-nav {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 800px) {
-
     .header-content {
         margin-left: 5vh;
     }
@@ -214,33 +282,32 @@ footer {
         display: none;
     }
 
-
-    /* icone do menu */
     .menu-nav {
         display: inline-block;
         cursor: pointer;
+        z-index: 101;
     }
 
     .bar1, .bar2, .bar3 {
         width: 35px;
         height: 5px;
-        background-color: #333;
+        background-color: var(--button-background-color);
         margin: 6px 0;
         transition: 0.4s;
     }
 
-    /* Rotate first bar */
     .change .bar1 {
         transform: translate(0, 11px) rotate(-45deg);
+        background-color: var(--background-color);
     }
 
-    /* Fade out the second bar */
     .change .bar2 {
         opacity: 0;
+        background-color: var(--background-color);
     }
 
-    /* Rotate last bar */
     .change .bar3 {
         transform: translate(0, -11px) rotate(45deg);
+        background-color: var(--background-color);
     }
 }

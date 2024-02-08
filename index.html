@@ -25,7 +25,7 @@
                 <div class="nome-topo">Página Portifólio</div>
             </div>
 
-            <div class="menu-nav" onclick="myFunction(this)">
+            <div class="menu-nav" id="menuNav" onclick="clickMenu(this)">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
@@ -38,9 +38,23 @@
                     <li class="link-anim-sub"><a href="#cursos">Cursos</a></li>
                     <li class="link-anim-sub"><a href="#contato">Contato</a></li>
                     <li class="link-anim-sub"><a href="#sobre">Sobre</a></li>
+                    <button id="theme-toggle"></button>
                     <!-- Adicionar mais links conforme necessário -->
                 </ul>
             </nav>
+
+            <!-- menu oculto de sobreposição  -->
+
+            <div class="overlay-menu" id="overlayMenu" data-aos="fade-left">
+                <ul>
+                    <li><a href="#projetos">→ Projetos</a></li>
+                    <li><a href="#cursos">→ Cursos</a></li>
+                    <li><a href="#contato">→ Contato</a></li>
+                    <li><a href="#sobre">→ Sobre</a></li>
+                    <!-- Adicione mais links conforme necessário -->
+                </ul>
+            </div>
+
         </div>
     </header>
 
