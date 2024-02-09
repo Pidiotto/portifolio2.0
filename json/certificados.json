@@ -1,0 +1,33 @@
+[
+    {
+        "titulo": "Certificado de Conclusão do Curso X",
+        "descricao": "Descrição do curso X",
+        "imagem": "/img/certificados/c1.png",
+        "link": "link/para/mais/detalhes1"
+    },
+    {
+        "titulo": "Certificado de Conclusão do Curso Y",
+        "descricao": "Descrição do curso Y",
+        "imagem": "/img/certificados/c1.png",
+        "link": "link/para/mais/detalhes2"
+    },
+    {
+        "titulo": "Certificado de Conclusão do Curso Z",
+        "descricao": "Descrição do curso Z",
+        "imagem": "/img/certificados/c1.png",
+        "link": "link/para/mais/detalhes3"
+    },
+    {
+        "titulo": "Certificado de Conclusão do Curso A",
+        "descricao": "Descrição do curso A",
+        "imagem": "/img/certificados/c1.png",
+        "link": "link/para/mais/detalhes4"
+    },
+    {
+        "titulo": "Certificado de Conclusão do Curso A",
+        "descricao": "Descrição do curso A",
+        "imagem": "/img/certificados/c1.png",
+        "link": "link/para/mais/detalhes4"
+    }
+]
+

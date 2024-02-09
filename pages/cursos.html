@@ -8,23 +8,24 @@
     <link rel="icon" href="/img/icons/portfolio5.png" type="image/png">
 
     <!-- normalize.css para corrigir erros de navegadores -->
-    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="/style/normalize.css">
     <!-- estilo css -->
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="/style/style.css">
     <!-- css de fontes -->
-    <link rel="stylesheet" href="style/fontes.css">
+    <link rel="stylesheet" href="/style/fontes.css">
     <!-- animações -->
     <link rel="stylesheet" href="/animation/aos.css">
+    <!-- css cursos -->
+    <link rel="stylesheet" href="/style/cursos.css">
 
-    <title>Portfólio 2.0</title>
+    <title>Cursos</title>
 </head>
 
 <body>
-
     <header>
         <div class="header-content">
             <div class="logo" data-aos="fade-right">
-                <div class="nome-topo">Página Portifólio</div>
+                <div class="nome-topo">Certificados Obtidos</div>
             </div>
 
             <div class="menu-nav" id="menuNav" onclick="clickMenu(this)">
@@ -36,8 +37,9 @@
 
             <nav data-aos="fade-left">
                 <ul>
+                    <li class="link-anim-sub"><a href="/index.html">Início</a></li>
                     <li class="link-anim-sub"><a href="#projetos">Projetos</a></li>
-                    <li class="link-anim-sub"><a href="/pages/cursos.html">Cursos</a></li>
+                    <li class="link-anim-sub"><a href="#cursos">Cursos</a></li>
                     <li class="link-anim-sub"><a href="#contato">Contato</a></li>
                     <li class="link-anim-sub"><a href="#sobre">Sobre</a></li>
                     <!-- Adicionar mais links conforme necessário -->
@@ -48,6 +50,7 @@
 
             <div class="overlay-menu" id="overlayMenu" data-aos="fade-left">
                 <ul>
+                    <li><a href="/index.html">→ Início</a></li>
                     <li><a href="#projetos">→ Projetos</a></li>
                     <li><a href="/pages/cursos.html">→ Cursos</a></li>
                     <li><a href="#contato">→ Contato</a></li>
@@ -60,45 +63,21 @@
     </header>
 
     <main>
-        <section class="profile-section">
-            <div class="profile-image" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <img src="/img/perfil2.jpg" alt="Foto perfil">
-            </div>
-            <div class="profile-info" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <h3>Olá, eu sou o</h3>
-                <h1>Wagner N.S.</h1>
-                <h2>Web Developer</h2>
-                <div class="buttons">
-                    <button class="btn-l">Download CV</button>
-                    <button class="btn-r">Contato Inf</button>
-                </div>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/wagnernardes/" target="_blank"><img
-                            src="/img/icons/linkedin.png" alt="LinkedIn"></a>
-                    <a href="https://github.com/Pidiotto" target="_blank"><img src="/img/icons/github.png"
-                            alt="GitHub"></a>
-                    <!-- Adicionar mais ícones conforme necessário -->
-                </div>
-                <!-- <button id="theme-toggle"></button> -->
-            </div>
-        </section>
-
-        <!-- Adicionar mais seções conforme necessário -->
-
+        <div class="certificados-container" id="certificados-container">
+            <!-- O script certificados.js está puxando os certificados do arquivo json e preenchendo essa área -->
+        </div>
     </main>
 
-    <!-- <footer>
-        <div>
-            <p>&copy; 2024 Wagner Portifólio. Todos os direitos reservados.</p>
-    </footer> -->
+
+
 
     <!-- script -->
-    <script src="script/script.js"></script>
+    <script src="/script/script.js"></script>
     <script src="/animation/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <script>AOS.init();</script>
 
+    <!-- script para certificados -->
+    <script src="/script/certificados.js"></script>
 </body>
 
 </html>

@@ -259,6 +259,10 @@ footer {
     .menu-nav {
         display: none;
     }
+
+    .nome-topo {
+        margin-left: 5vh;
+    }
 }
 
 @media only screen and (max-width: 800px) {

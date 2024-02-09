@@ -3,7 +3,7 @@
 /* Regular */
 @font-face {
     font-family: 'CocogooseProRegular';
-    src: url('/fonts/Cocogoose-Pro-Regular-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Regular-trial.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -11,7 +11,7 @@
 /* Thin */
 @font-face {
     font-family: 'CocogooseProThin';
-    src: url('/fonts/Cocogoose-Pro-Thin-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Thin-trial.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -19,7 +19,7 @@
 /* Ultralight */
 @font-face {
     font-family: 'CocogooseProUltralight';
-    src: url('/fonts/Cocogoose-Pro-Ultralight-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Ultralight-trial.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -27,7 +27,7 @@
 /* Light */
 @font-face {
     font-family: 'CocogooseProLight';
-    src: url('/fonts/Cocogoose-Pro-Light-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Light-trial.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -35,7 +35,7 @@
 /* Semilight */
 @font-face {
     font-family: 'CocogooseProSemilight';
-    src: url('/fonts/Cocogoose-Pro-Semilight-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Semilight-trial.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -43,7 +43,7 @@
 /* Darkmode */
 @font-face {
     font-family: 'CocogooseProDarkmode';
-    src: url('/fonts/Cocogoose-Pro-Darkmode-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Darkmode-trial.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -51,7 +51,7 @@
 /* Bold */
 @font-face {
     font-family: 'CocogooseProBold';
-    src: url('/fonts/Cocogoose-Pro-Bold-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Bold-trial.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -59,7 +59,7 @@
 /* Thin Italic */
 @font-face {
     font-family: 'CocogooseProThinItalic';
-    src: url('/fonts/Cocogoose-Pro-Thin-Italic-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Thin-Italic-trial.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
@@ -67,7 +67,7 @@
 /* Ultralight Italic */
 @font-face {
     font-family: 'CocogooseProUltralightItalic';
-    src: url('/fonts/Cocogoose-Pro-Ultralight-Italic-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Ultralight-Italic-trial.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
@@ -75,7 +75,7 @@
 /* Light Italic */
 @font-face {
     font-family: 'CocogooseProLightItalic';
-    src: url('/fonts/Cocogoose-Pro-Light-Italic-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Light-Italic-trial.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
@@ -83,7 +83,7 @@
 /* Semilight Italic */
 @font-face {
     font-family: 'CocogooseProSemilightItalic';
-    src: url('/fonts/Cocogoose-Pro-Semilight-Italic-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Semilight-Italic-trial.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
@@ -91,7 +91,7 @@
 /* Darkmode Italic */
 @font-face {
     font-family: 'CocogooseProDarkmodeItalic';
-    src: url('/fonts/Cocogoose-Pro-Darkmode-Italic-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Darkmode-Italic-trial.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
@@ -99,7 +99,7 @@
 /* Italic */
 @font-face {
     font-family: 'CocogooseProItalic';
-    src: url('/fonts/Cocogoose-Pro-Italic-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Italic-trial.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
@@ -107,7 +107,7 @@
 /* Bold Italic */
 @font-face {
     font-family: 'CocogooseProBoldItalic';
-    src: url('/fonts/Cocogoose-Pro-Bold-Italic-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Bold-Italic-trial.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
@@ -115,7 +115,68 @@
 /* Letterpress Regular */
 @font-face {
     font-family: 'CocogooseProLetterpressRegular';
-    src: url('/fonts/Cocogoose-Pro-Letterpress-Regular-trial.ttf') format('truetype');
+    src: url('/fonts/Cocogoose/Cocogoose-Pro-Letterpress-Regular-trial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Poppins */
+
+/* Importando as fontes Poppins */
+
+/* Bold */
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ExtraBold */
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('/fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ExtraLight */
+@font-face {
+    font-family: 'Poppins-ExtraLight';
+    src: url('/fonts/Poppins/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Light */
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('/fonts/Poppins/Poppins-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Medium */
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Regular */
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Thin */
+@font-face {
+    font-family: 'Poppins-Thin';
+    src: url('/fonts/Poppins/Poppins-Thin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

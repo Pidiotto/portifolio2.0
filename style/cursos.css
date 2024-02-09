@@ -1,0 +1,51 @@
+.certificados-container {
+    /* border: 2px solid black;
+    border-radius: 2%; */
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que os certificados sejam envolvidos em várias linhas */
+    justify-content: center;
+}
+
+.certificado {
+    width: 200px;
+    /* Define uma largura fixa para cada certificado */
+    margin: 10px;
+    /* Adiciona margem entre os certificados */
+    transition: transform 0.3s;
+    /* Adiciona transição suave ao tamanho do certificado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.certificado:hover {
+    transform: scale(1.1);
+    /* Aumenta o tamanho do certificado em 10% ao passar o mouse */
+    font-size: 14px;
+    color: #000000;
+}
+
+.certificado img {
+    width: 100%;
+    /* Garante que a imagem preencha todo o espaço disponível */
+    border-radius: 5px;
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
+
+.certificado h3 {
+    font-family: 'Poppins-Medium';
+    text-align: center;
+    /* Estilos para o título do certificado */
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.certificado p {
+    font-family: 'Poppins-Regular';
+    text-align: center;
+    /* Centraliza o texto dentro do certificado */
+    font-size: 14px;
+    color: #2e2e2e;
+}
