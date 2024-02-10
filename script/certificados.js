@@ -37,8 +37,8 @@ async function carregarCertificados() {
 
             // Adiciona um evento de clique ao certificado
             certificadoElement.addEventListener('click', () => {
-                // Aqui você pode adicionar a lógica para o que acontece quando um certificado é clicado
-                console.log('Certificado clicado:', certificado.titulo);
+                // Redireciona o navegador para o link do certificado
+                window.location.href = certificado.link;
             });
         });
     } catch (erro) {

@@ -1,3 +1,10 @@
+main {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .certificados-container {
     /* border: 2px solid black;
     border-radius: 2%; */

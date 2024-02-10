@@ -1,33 +1,44 @@
 [
     {
-        "titulo": "Certificado de Conclusão do Curso X",
-        "descricao": "Descrição do curso X",
-        "imagem": "/img/certificados/c1.png",
-        "link": "link/para/mais/detalhes1"
+        "titulo": "Formação JavaScript Developer",
+        "descricao": "Bootcamp DIO 39hrs",
+        "imagem": "/img/certificados/java-dev.png",
+        "link": "https://www.dio.me/certificate/0EDAD06D/share"
     },
     {
-        "titulo": "Certificado de Conclusão do Curso Y",
-        "descricao": "Descrição do curso Y",
-        "imagem": "/img/certificados/c1.png",
-        "link": "link/para/mais/detalhes2"
+        "titulo": "Potência Tech iFood",
+        "descricao": "Programação do Zero 68hrs",
+        "imagem": "/img/certificados/potencia-ifood.png",
+        "link": "https://www.dio.me/certificate/ACEEF602/share"
     },
     {
-        "titulo": "Certificado de Conclusão do Curso Z",
-        "descricao": "Descrição do curso Z",
+        "titulo": "Lógica de Porgramação Alura",
+        "descricao": "Parceria com Oracle e ONE 6hrs",
         "imagem": "/img/certificados/c1.png",
-        "link": "link/para/mais/detalhes3"
+        "link": "https://cursos.alura.com.br/degree/certificate/f507daa3-7e63-48a6-ac96-4044c4da20fc"
     },
     {
-        "titulo": "Certificado de Conclusão do Curso A",
-        "descricao": "Descrição do curso A",
-        "imagem": "/img/certificados/c1.png",
-        "link": "link/para/mais/detalhes4"
+        "titulo": "Bootcamps DIO: Educação Gratuita e Empregabilidade Juntas!",
+        "descricao": "Inumeras parcerías 1hr",
+        "imagem": "/img/certificados/bootcamps-dio.png",
+        "link": "https://www.dio.me/certificate/345E7BC6/share"
     },
     {
-        "titulo": "Certificado de Conclusão do Curso A",
-        "descricao": "Descrição do curso A",
-        "imagem": "/img/certificados/c1.png",
-        "link": "link/para/mais/detalhes4"
+        "titulo": "Versionamento de Código com Git e GitHub",
+        "descricao": "Digital Innovation One 2hrs",
+        "imagem": "/img/certificados/git-github.png",
+        "link": "https://www.dio.me/certificate/FC54A70C/share"
+    },
+    {
+        "titulo": "Aplicativos para Dispositivos Móveis",
+        "descricao": "CODE IOT e MIT 24hrs",
+        "imagem": "/img/certificados/iot.png",
+        "link": "https://codeiot.org.br/certificates/1bb0a8803d43444c9ce256df906e0efe"
+    },
+    {
+        "titulo": "Desenvolvimento Pessoal",
+        "descricao": "Oracle + Alura 38hrs",
+        "imagem": "/img/certificados/desen-pessoal.png",
+        "link": "https://cursos.alura.com.br/degree/certificate/9aea4bfd-9ee5-4ca2-9fa3-1ce84a1ba99b"
     }
 ]
-
